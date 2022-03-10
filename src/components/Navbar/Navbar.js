@@ -6,6 +6,7 @@ import Aboutus from './Aboutus';
 import Contact from './Contact';
 
 
+
 const Navbar = () => {
   return (
     <Router>
@@ -59,13 +60,13 @@ const Navbar = () => {
      
     </div>
     <Switch>
-            <Route  path="/Home">
+            <Route  path="/Home" component={Home}>
               <Home/>
             </Route>
-            <Route  path="/Aboutus">
+            <Route  path="/Aboutus" component={Aboutus}>
               <Aboutus/>
             </Route>
-            <Route  path="/Contact">
+            <Route  path="/Contact" component={Contact}>
               <Contact/>
             </Route>
             
