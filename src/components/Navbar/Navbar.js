@@ -1,21 +1,17 @@
 import React from "react";
 import './navbar.css';
-import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"; 
-import Home from './Home';
-import Aboutus from './Aboutus';
-import Contact from './Contact';
+import {Link} from "react-router-dom"; 
 
 
 
 const Navbar = () => {
   return (
-    <Router>
-      <div className="navbar navbar-dark">
+          <div className="navbar navbar-dark">
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <p className="navbar-brand">
           BUSINESS
-          </a>
+          </p>
           <button
             className="navbar-toggler"
             type="button"
@@ -31,16 +27,15 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-0 mb-lg-0 ">
               <li className="nav-item px-3 item-1">
-                <Link to="/Home">Home</Link>
+                <Link to="/">Home</Link>
               </li>
               
               <li className="nav-item px-3">
-                <Link to="/Aboutus">About US</Link>
+                <Link to="/aboutus">About US</Link>
               </li>
               
-             
               <li className="nav-item px-3">
-                <Link to="/Contact">Contact</Link>
+                <Link to="/contact">Contact</Link>
               </li>
              
               
@@ -57,21 +52,9 @@ const Navbar = () => {
           
         </div>
       </nav>
-     
     </div>
-    <Switch>
-            <Route  path="/Home" component={Home}>
-              <Home/>
-            </Route>
-            <Route  path="/Aboutus" component={Aboutus}>
-              <Aboutus/>
-            </Route>
-            <Route  path="/Contact" component={Contact}>
-              <Contact/>
-            </Route>
-            
-          </Switch>
-    </Router>
+  
+    
 
   );
 };

@@ -14,7 +14,7 @@ const Herosection = () => {
         </p>
         </div>
         <div className="image-container">
-        <img src={Pic} className="design" />
+        <img src={Pic} className="design" alt=""/>
         </div>
       </div>
     </>

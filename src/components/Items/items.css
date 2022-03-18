@@ -1,0 +1,32 @@
+.container-2
+{
+    min-height: 140px;   
+    padding-top: 30px;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+/* .container-2-text
+{
+    text-align: center;
+} */
+
+.item-image
+{
+   height:250px; 
+   width:310px;
+}
+
+@media only screen and (max-width: 465px)
+{ 
+     .container-2
+     {
+         flex-direction: column;
+     }
+     .items-description
+     {
+         padding:0px 10px;
+     }
+}
