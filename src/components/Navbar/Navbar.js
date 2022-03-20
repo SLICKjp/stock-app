@@ -41,7 +41,7 @@ const Navbar = () => {
               
             </ul>
             
-            <form class="form-inline my-2 my-lg-0">   
+            <form className="form-inline my-2 my-lg-0">   
             <button type="button" className="btn btn-1 btn-outline-dark">Log In</button>
             <button type="button" className="btn btn-2 btn-outline-dark">Sign Up</button>
      {/* <button className=".nav-btn btn btn-dark my-2 my-sm-0 " type="submit">Search</button>

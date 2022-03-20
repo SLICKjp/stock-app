@@ -1,0 +1,38 @@
+.info-container
+{
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: space-around;
+    min-height: 400px;
+    padding: 50px 0px;
+
+}
+.info-text-container
+{
+    width:55%;
+    /* padding:50px 0px; change thisaccording to your need */ 
+    text-align:justify;
+}
+.info-pic-1
+{
+    height:300px;
+    width:340px;
+    border-radius:5%;
+}
+
+@media only screen and (max-width: 465px)
+{ 
+    .info-container
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+    .info-text-container
+    {
+        width:fit-content;
+    }
+    
+}
