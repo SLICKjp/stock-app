@@ -2,9 +2,9 @@ import React from 'react'
 
 const Aboutus = () => {
     return (
-        <div>
-          <h1>Hello</h1>
-        </div>
+        <>
+        <h1>ho</h1>
+        </>
     )
 }
 

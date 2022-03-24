@@ -1,10 +1,17 @@
 import React from 'react'
+import Firstcomp from './Firstcomp';
+import './aboutus.css';
+import Secondcomp from './Secondcomp';
+
 
 const Aboutus = () => {
     return (
-        <div>
-          <h1>Hello</h1>
-        </div>
+        <>
+          <div className="aboutus-container">
+            <Firstcomp />
+            <Secondcomp/>
+          </div>
+        </>
     )
 }
 
