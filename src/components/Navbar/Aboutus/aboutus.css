@@ -1,0 +1,59 @@
+
+/* FIRst comp css stars */
+
+.firstpart {
+  position: relative;
+  font-weight: bold;
+}
+
+.bg-image {
+  /* position: relative    ; */
+  min-height: 100%;
+  min-width: 100%;
+  background-size: cover;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 110px;
+  color: white  ;
+}
+
+.aboutus-heading{
+  width: 22%;
+  
+}
+
+.para-aboutus{
+  margin-top: 50px;
+  width: 60%;
+}
+
+
+/* First comp css ends */
+
+/* second comp css starts */
+
+
+
+.sec-comp-container{
+  
+  display: flex;  
+  justify-content: space-between;
+  min-height: 300px;
+  padding: 50px 110px;
+  
+
+}
+
+.sec-text-description{
+  width: 70%;
+}
+
+
+
+
+
+
+/* second comp css ends */
