@@ -2,8 +2,6 @@ import React from "react";
 import './navbar.css';
 import {Link} from "react-router-dom"; 
 
-
-
 const Navbar = () => {
   return (
           <div className="navbar navbar-dark">
@@ -36,6 +34,9 @@ const Navbar = () => {
               
               <li className="nav-item px-3">
                 <Link to="/contact">Contact</Link>
+              </li>
+              <li className="nav-item px-3">
+                <Link to="/data">News</Link>
               </li>
              
               
