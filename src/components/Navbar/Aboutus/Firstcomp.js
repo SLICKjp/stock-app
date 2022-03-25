@@ -4,7 +4,7 @@ import pic from "./aboutus2.jpeg";
 const Firstcomp = () => {
   return (
     <div className="firstpart">
-      <img src={pic} className="bg-image" />
+      <img src={pic} className="bg-image" alt="" />
       <div className="top-left">
         <h1 className="aboutus-heading">Creative teams bringing ideas to life.</h1>
       
