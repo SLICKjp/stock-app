@@ -9,10 +9,7 @@ const Firstcomp = () => {
         <h1 className="aboutus-heading">Creative teams bringing ideas to life.</h1>
       
         <p className="para-aboutus">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus
-          laudantium eum adipisci porro nihil id reiciendis qui voluptatibus
-          quam molestias, consequuntur, quibusda. Rerum nesciunt aliquam
-          nam illo? Culpa, asperiores. Asperiores tenetur facere explic
+        We’re a team of passionate individuals with a desire to create meaningful work. We never rest on our past successes and continue to push boundaries. Learning is a must in the industry and we are deep into the digital forest. We believe in supporting our team to create the future, pushing ourselves to deliver to most forward-thinking solutions. 
         </p>
       
       </div>

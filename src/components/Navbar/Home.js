@@ -4,6 +4,7 @@ import Herosection from '../Herosection/Herosection';
 import Itemcontainer from '../Items/Itemcontainer';
 import Info from '../Information/Info';
 import Information2 from '../Information2/Information2';
+import Footercontainer from '../Footer/Footercontainer';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
            <Itemcontainer/>
            <Info/>
            <Information2/>
+           <Footercontainer/>
           
         </div>
     )
