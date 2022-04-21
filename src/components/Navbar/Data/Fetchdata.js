@@ -9,7 +9,6 @@ const Fetchdata = () => {
             console.log(res)
             const finalData = res.data.results;
             setPosts(finalData);
-          
         }).catch((err) => {
             console.log(err)
         });
